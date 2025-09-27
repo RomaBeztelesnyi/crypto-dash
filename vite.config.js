@@ -16,5 +16,9 @@ export default defineConfig({
   },
   build: {
     outDir: "crypto-dash",
+    // minify: false,
+    // base: '/crypto-dash/'
+    // assetsDir: 'files-of-pr'
+    // soursemap: true,
   },
 });
